@@ -1,0 +1,4 @@
+::1 - - [28/Jul/2023:06:15:22 +0000] "GET /user/get HTTP/1.1" 200 818 "-" "PostmanRuntime/7.32.2"
+::1 - - [28/Jul/2023:06:15:25 +0000] "GET /user/get/64c3523fe98dcfe6c84cb2e7 HTTP/1.1" 200 210 "-" "PostmanRuntime/7.32.2"
+::1 - - [28/Jul/2023:06:15:27 +0000] "PATCH /user/update/64c3523fe98dcfe6c84cb2e7 HTTP/1.1" 200 30 "-" "PostmanRuntime/7.32.2"
+::1 - - [28/Jul/2023:06:15:30 +0000] "DELETE /user/delete/64c357e74cf5b28d2729a0c3 HTTP/1.1" 200 34 "-" "PostmanRuntime/7.32.2"

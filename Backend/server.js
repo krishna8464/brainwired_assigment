@@ -8,12 +8,16 @@ const PORT = process.env.PORT || 5000
 
 const { connection } = require("./config/db");
 const { Userroute } = require("./routes/userroute");
+const { errorHandler } = require("./middleware/errorhandler");
+const { logger } = require("./middleware/logger")
 
 
 
 app.use(cors({
     origin:"*"
 }))
+app.use(logger);
+app.use(errorHandler)
 
 app.get("/",async(req,res)=>{
     try {
@@ -24,6 +28,12 @@ app.get("/",async(req,res)=>{
 })
 
 app.use("/user",Userroute);
+
+
+// Handle invalid routes
+app.use(logger,(req, res) => {
+    res.status(404).send({ error: 'Not found' });
+});
 
 
 app.listen(PORT,async()=>{
