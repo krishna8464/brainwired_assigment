@@ -110,7 +110,8 @@ The client will run on http://localhost:5000 and open automatically in your brow
  "suc":"User deleted successfully"
 }
 ```
+## Database image 
 
-
+![DataBase](https://github.com/krishna8464/brainwired_assigment/assets/82109628/4be1b020-0cb9-4e18-881b-31da186e701d)
 
 
