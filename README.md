@@ -5,7 +5,7 @@ This project is a full-stack web application built with React, Node.js, Express,
 ## Deployment link : https://brainwired.vercel.app/
 ## Api Route to acces the routes : https://brinewried.onrender.com
 ## github repo link : https://github.com/krishna8464/brainwired_assigment
-## Post man folder for the Api Testing folder  link : https://planetary-desert-450468.postman.co/workspace/My-Workspace~37337c76-27f3-4ef9-8778-cf9e0e56a65f/collection/24255887-3690a959-f3ea-45fe-bb3b-d5a39ad9653a?action=share&creator=24255887 
+## Post man folder link for the Api Testing : https://planetary-desert-450468.postman.co/workspace/My-Workspace~37337c76-27f3-4ef9-8778-cf9e0e56a65f/collection/24255887-3690a959-f3ea-45fe-bb3b-d5a39ad9653a?action=share&creator=24255887 
 
 ## Prerequisites
 
