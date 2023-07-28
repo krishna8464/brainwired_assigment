@@ -1,0 +1,27 @@
+table{
+    border: 2px solid red;
+
+    /* margin-left: 100px; */
+    
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+    
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+form>input{
+    padding: 20px;
+}
+
+
+
