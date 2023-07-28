@@ -56,7 +56,7 @@ The server will run on http://localhost:5000.
 - npm start
 
 
-The client will run on http://localhost:3000 and open automatically in your browser.
+The client will run on http://localhost:5000 and open automatically in your browser.
 
 ## Usage
 
@@ -75,7 +75,7 @@ The client will run on http://localhost:3000 and open automatically in your brow
 }
 ```
 
-- **GET /users**: Get all users
+- **GET /user/get**: Get all users
 ```
 [
   {
@@ -86,6 +86,31 @@ The client will run on http://localhost:3000 and open automatically in your brow
 "address" : "hyd
   }
 ]
-
-
 ```
+- **GET /user/get/id**: Get a user By the id:
+```json
+{
+ "id":1
+ "firstname": "vamshi",
+ "lastname": "ashish@example.com",
+ "dob": "2001-05-26",
+"address" : "hyd
+}
+```
+- **PATCH /user/update/id**: To Update a User. Requires the following JSON payload:
+```json
+{
+ "firstname": "vamshi",
+ "lastname": "ashish@example.com"
+}
+```
+- **Delete /user/delete/id**: To delete a User. Requires the following JSON payload:
+```json
+{
+ "suc":"User deleted successfully"
+}
+```
+
+
+
+
